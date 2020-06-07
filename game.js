@@ -74,8 +74,8 @@ acceptingAnswers = true;
           
           const classToApply = selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
             selectedChoice.parentElement.classList.add(classToApply);
-            
-            selectedChoice.parentElement.classList.remove(classToApply);
+
+        //    selectedChoice.parentElement.classList.remove(classToApply);
           getNewQuestion();
         });
   });
